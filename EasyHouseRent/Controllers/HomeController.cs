@@ -53,7 +53,7 @@ namespace EasyHouseRent.Controllers
         }
 
         [HttpGet("MostRecent")]
-        public IEnumerable<Advertisement> GetMostRecent([FromQuery] string value)
+        public IEnumerable<Advertisement> GetMostRecent()
         {
             string sql = $"SELECT idanuncio,idusuario,titulo,direccion,descripcion,modalidad,zona,edificacion,habitaciones,garaje,precio,fecha,url1,url2,url3,url4,estado,ciudad FROM anuncios ORDER BY idanuncio DESC LIMIT 20;";
             DataTable dt = db.getTable(sql);
@@ -158,7 +158,7 @@ namespace EasyHouseRent.Controllers
         }
 
         [HttpGet("Random")]
-        public IEnumerable<Advertisement> GetRandom([FromQuery] string value)
+        public IEnumerable<Advertisement> GetRandom()
         {
             string sql = $"SELECT idanuncio,idusuario,titulo,direccion,descripcion,modalidad,zona,edificacion,habitaciones,garaje,precio,fecha,url1,url2,url3,url4,estado,ciudad FROM anuncios ORDER BY RAND() LIMIT 5;";
             DataTable dt = db.getTable(sql);

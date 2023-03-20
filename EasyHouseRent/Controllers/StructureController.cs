@@ -14,7 +14,7 @@ namespace EasyHouseRent.Controllers
         BaseData db = new BaseData();
 
         [HttpGet("AboutUs")]
-        public IEnumerable<Advertisement> GetImagesAds([FromQuery] string value)
+        public IEnumerable<Advertisement> GetImagesAds()
         {
             string sql = $"SELECT url1 FROM anuncios LIMIT 8;";
             DataTable dt = db.getTable(sql);
