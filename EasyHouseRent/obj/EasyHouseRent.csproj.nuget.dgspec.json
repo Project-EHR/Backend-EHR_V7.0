@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\EasyHouseRent\\EasyHouseRent\\EasyHouseRent.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Backend-EHR_V7.0\\EasyHouseRent\\EasyHouseRent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\EasyHouseRent\\EasyHouseRent\\EasyHouseRent.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Backend-EHR_V7.0\\EasyHouseRent\\EasyHouseRent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\EasyHouseRent\\EasyHouseRent\\EasyHouseRent.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Backend-EHR_V7.0\\EasyHouseRent\\EasyHouseRent.csproj",
         "projectName": "EasyHouseRent",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\EasyHouseRent\\EasyHouseRent\\EasyHouseRent.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Backend-EHR_V7.0\\EasyHouseRent\\EasyHouseRent.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\EasyHouseRent\\EasyHouseRent\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Backend-EHR_V7.0\\EasyHouseRent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
